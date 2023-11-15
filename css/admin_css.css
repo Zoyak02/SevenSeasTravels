@@ -1,0 +1,269 @@
+body {
+  background-color: beige;
+}
+
+body h3 {
+  font-family: "Libre Franklin", sans-serif;
+  color: #f2f2f2;
+  font-weight: bold;
+  margin-left: 30px;
+  font-size: 20px;
+  padding-top: 10px;
+  }
+
+  .adminIcon {
+    margin: 0;
+    padding: 0;
+    
+  }
+
+
+
+  .adminIcon li {
+    display: inline-block;
+    
+  }
+
+  .adminIcon li a {
+    line-height: 32px; /* Adjust the line-height as needed */
+  }
+
+  .adminBtnIcon {
+    margin-top: 12px;
+  }
+
+  .closeBtnIcon {
+    float: right;
+    padding-right: 10px;
+    padding-top: 1px;
+  }
+
+  hr {
+    height: 1px;
+    width: 97%;
+    color: white;
+    background-color: beige;
+  }
+
+  .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #172342;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 15px;
+  }
+
+  .sidebar a {
+    font-family: "Inter", sans-serif;
+    padding: 8px 8px 8px 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    line-height: 32px;
+  }
+  
+  
+  .sidebar a:hover {
+    color: black;
+    background-color: #2a527c;
+  }
+
+  .sidebar .closeButton {
+    font-size: 28px;
+  }
+  
+  /* old close button css
+  
+    .sidebar .closeButton {
+    position: absolute;
+    top: 0;
+    margin-top: 18px;
+    right: 10px;
+    font-size: 36px;
+    margin-left: 50px;
+  }*/
+
+  .sidebarFooter {
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    
+  }
+
+  
+  .logout_button {
+    margin-left: 60px;
+    margin-right: 55px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 10px;
+    border-width: 400px;
+    border: white;
+    border-style: solid;
+    background-color: #2a527c;
+  }
+
+  .logout_button:hover {
+    background-color: #33446e;
+  }
+
+  .logout_button a {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+    margin-top: 7px;
+  }
+
+  .logout_button a img {
+    padding-bottom: 6px;
+  }
+
+  
+  .openButton {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 6px 15px;
+    border: none;
+    border-radius: 10%;
+    
+  }
+  
+  .openButton:hover {
+    background-color: #444;
+  }
+
+  #topBtn {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+    z-index: 99;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color: #6291f8;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    display: block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+  }
+  
+  #topBtn:hover {
+    background-color: rgb(113, 180, 204);
+  }
+  
+  #header {
+    transition: margin-left .5s;
+    padding: 0px;
+  }
+
+  .header {
+    overflow: hidden;
+    background-color: #333;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  .sidebar img {
+    /* inverts black symbol to white */
+    -webkit-filter: invert(100%); /* Safari/Chrome */
+    filter: invert(100%);
+    float: left;
+    width:  30px;
+    height: 30px;
+    object-fit: cover;
+  }
+
+  .header img {
+    float: right;
+    margin-right: 50px;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    padding-bottom: 15px;
+  }
+
+  #mainBody {
+    transition: margin-left .5s;
+    padding-left: 5px;
+
+  }
+
+  .mainBody {
+    overflow: hidden;
+    width: 100%;
+    
+  }
+
+  #mainCardBody h4 {
+    font-size: 24px; /* Adjust the font size as needed */
+  }
+
+  #card_1,
+  #card_2,
+  #card_3 {
+    margin-left: 20px; /* Adjust the margin as needed */
+    width: 40%; /* Adjust the width as needed */
+    border-color: #111;
+    border-width: 2px;
+    margin-bottom: 20px; /* Adjust the margin-bottom as needed */
+  }
+
+  #card_1:hover,
+  #card_2:hover,
+  #card_3:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* Adjust the shadow values as needed */
+  }
+
+  #card_1 {
+    margin-left: 110px;
+    width: 25%;
+    border-color: #111;
+    border-width: 2px;
+  }
+
+  .card_1_img {
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    padding-left: 0px;
+    float: right;
+  }
+
+  #card_2 {
+    margin-left: 25px;
+    width: 25%;
+    border-color: #111;
+    border-width: 2px;
+    background-color: #f1bd1e;
+  }
+
+  #card_3 {
+    margin-left: 25px;
+    width: 25%;
+    border-color: #111;
+    border-width: 2px;
+    background-color: #9c28b1;
+  }
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }

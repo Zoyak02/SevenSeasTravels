@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.reviews {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filter {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.rating {
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.rating:hover {
+    text-decoration: underline;
+}
+
+.review {
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.no-reviews {
+    display: none;
+}

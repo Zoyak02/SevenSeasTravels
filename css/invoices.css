@@ -1,0 +1,49 @@
+    body{
+    margin-top:20px;
+    background:-webkit-linear-gradient(#c5e5e5, #ccddf9);
+    background:linear-gradient(#c9e5e9,#b9ceef);
+
+    }
+
+    .container {
+      min-height: 127vh; /* Minimum height of the viewport */
+      display:flex;
+      position: relative;
+      align-items: center;
+      justify-content: center;
+      height: 100%; /* Take full height of the viewport */
+    }
+
+
+    .card {
+      box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%);
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 1000px;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 0 solid rgba(0,0,0,.125);
+        border-radius: 1rem;
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 60px;
+      height: 60px;
+      overflow: hidden;
+      border-radius: 50%;
+      margin-right: 5px; /* Adjust as needed */
+    }
+  
+    .logo-img {
+      width: 100%;
+      height: auto;
+      border-radius: 50%;
+    }
+
+  
+      
