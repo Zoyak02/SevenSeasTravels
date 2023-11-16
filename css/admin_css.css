@@ -25,7 +25,7 @@ body h3 {
   }
 
   .adminIcon li a {
-    line-height: 32px; /* Adjust the line-height as needed */
+    line-height: 32px; 
   }
 
   .adminBtnIcon {
@@ -213,35 +213,35 @@ body h3 {
   }
 
   #mainCardBody h4 {
-    font-size: 24px; /* Adjust the font size as needed */
+    font-size: 24px;
   }
 
   #card_1,
   #card_2,
   #card_3 {
-    margin-left: 20px; /* Adjust the margin as needed */
-    width: 40%; /* Adjust the width as needed */
+    margin-left: 20px; 
+    width: 40%; 
     border-color: #111;
     border-width: 2px;
-    margin-bottom: 20px; /* Adjust the margin-bottom as needed */
+    margin-bottom: 20px; 
   }
 
   #card_1:hover,
   #card_2:hover,
   #card_3:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* Adjust the shadow values as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); 
   }
 
   #card_1 {
-    margin-left: 110px;
+    margin-left: 130px;
     width: 25%;
     border-color: #111;
     border-width: 2px;
   }
 
   .card_1_img {
-    width: 50px; /* Adjust the width as needed */
-    height: 50px; /* Adjust the height as needed */
+    width: 50px; 
+    height: 50px; 
     padding-left: 0px;
     float: right;
   }
