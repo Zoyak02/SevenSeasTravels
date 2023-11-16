@@ -216,8 +216,9 @@ $tour_type = "europe";
                 </div>
                 <div class="col-5">
                     <div class="p-2 "><h2 class="section__title"> Europe </h2> 
-                        <p class="about__description">From the bustling streets of Tokyo to the serene temples of Bali, our tour website is your passport to an array of Asian destinations that will leave you spellbound. Dive into the vibrant colors of India's festivals, hike the pristine mountains of Nepal, or unwind on the pristine beaches of Thailand - Asia has it all.
-                            Asia is a treasure trove of cultural wonders waiting to be explored. Join us as we take you on a journey to appreciate the beauty of Asian culture in all its glory.
+                        <p class="about__description">Embark on a captivating journey through Europe's rich tapestry of history and culture.
+                             From the enchanting streets of Paris to the sun-kissed coasts of the Mediterranean, explore iconic landmarks, savor diverse cuisines, and immerse yourself in the charm of Europe's timeless beauty. 
+                             With expert guides and carefully curated itineraries, create unforgettable memories across this continent of wonders.
                         </p></div>
                 </div>
             </div>
